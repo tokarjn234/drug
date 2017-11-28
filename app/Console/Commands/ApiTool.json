@@ -1,0 +1,29 @@
+{
+
+	"baseUrl" : "https://drug-order.local",
+    "company" : "356a192b7913b04c54574d18c28d46e6395428ab",
+    "email"   : ".................",
+    "password" : ".............",
+    "auth" : ["android", "androidapitest"],
+    "requests": [
+       {
+         "method" : "POST",
+         "uri" : "/api/orders/send-prescription",
+         "name" : "Sending New Order",
+         "loop": 2,
+         "type": "multipart",
+         "formParams" : {
+           "email": "test%d@gmail.com",
+           "first_name" : "test_%d",
+           "last_name" : "test_%d",
+           "phone_number": "123456789",
+           "store_id" : 1,
+           "image[0]" : "file:///D:/Dropbox/Photos/10958996_433905060098375_934403575_n.jpg",
+           "drugbrand_change": 1,
+           "drugbook_use": 1,
+           "visit_at": "2016-01-30 18:50:41"
+         }
+       }
+    ]
+
+}

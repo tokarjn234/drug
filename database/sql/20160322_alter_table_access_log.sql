@@ -1,0 +1,1 @@
+ALTER TABLE access_logs CHANGE acount_id account_id INT;

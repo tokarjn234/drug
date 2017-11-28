@@ -1,0 +1,13 @@
+
+Homestead.yaml
+Homestead.json
+
+/.idea
+/public/Public/img/prescription/*.tmp
+/public/css/site.min.css
+/public/js/site.min.js
+/public/js/site.min.js.map
+/public/images/stores
+/certs/clients
+/public/images/prescription
+.env

@@ -1,0 +1,97 @@
+{
+  "styles": {
+    "main" : {
+      "files": [
+        "bootstrap.min.css",
+        "metisMenu.css",
+        "dataTables.bootstrap.css",
+        "sb-admin-2.css",
+        "font-awesome.css",
+        "jquery.datetimepicker.css",
+        "toastr.min.css",
+        "select2.min.css",
+        "style.css"
+      ],
+      "output": "site.min.css",
+      "dir": "public/css"
+    }
+  },
+  "scripts": {
+      "main": {
+        "files": [
+          "jquery.min.js",
+          "angular.min.js",
+          "moment.min.js",
+          "bootstrap.min.js",
+          "toastr.min.js",
+          "metisMenu.js",
+          "sb-admin-2.js",
+          "jquery.datetimepicker.full.min.js",
+          "select2.full.min.js",
+          "linq.min.js",
+          "common.js",
+          "app.lang-jp.js",
+          "ajax.js",
+          "app.js",
+          "controllers/MainController.js",
+          "controllers/OrdersController.js",
+          "controllers/SettingsController.js",
+          "controllers/MessagesController.js",
+          "controllers/StoresController.js",
+          "controllers/AuthControllers.js"
+        ],
+        "output": "site.min.js",
+        "dir": "public/js"
+      },
+      "company_main": {
+        "files": [
+          "jquery.min.js",
+          "angular.min.js",
+          "moment.min.js",
+          "bootstrap.min.js",
+          "toastr.min.js",
+          "metisMenu.js",
+          "sb-admin-2.js",
+          "jquery.datetimepicker.full.min.js",
+          "select2.full.min.js",
+          "linq.min.js",
+          "common.js",
+          "app.lang-jp.js",
+          "ajax.js",
+          "app.js",
+          "company_controllers/MainController.js",
+          "company_controllers/CompaniesController.js",
+          "company_controllers/CertificatesController.js",
+          "company_controllers/AuthControllers.js",
+          "company_controllers/CompanyStaffsController.js"
+        ],
+        "output": "company.min.js",
+        "dir": "public/js"
+      },
+      "mediaid_main": {
+        "files": [
+          "jquery.min.js",
+          "angular.min.js",
+          "moment.min.js",
+          "bootstrap.min.js",
+          "toastr.min.js",
+          "metisMenu.js",
+          "sb-admin-2.js",
+          "jquery.datetimepicker.full.min.js",
+          "select2.full.min.js",
+          "linq.min.js",
+          "common.js",
+          "app.lang-jp.js",
+          "ajax.js",
+          "app.js",
+          "mediaid_controllers/MainController.js",
+          "mediaid_controllers/MediaidsController.js",
+          "mediaid_controllers/CertificatesController.js",
+          "mediaid_controllers/AuthControllers.js"
+        ],
+        "output": "mediaid.min.js",
+        "dir": "public/js"
+      }
+    }
+
+}
